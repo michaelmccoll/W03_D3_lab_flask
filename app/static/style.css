@@ -1,0 +1,9 @@
+body > h1 {
+    font-size: 72pt;
+    color: red;
+}
+
+body > div > p {
+    font-size: 20pt;
+    color: blue;
+}
