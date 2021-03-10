@@ -12,6 +12,7 @@
     {% for order in orders %}
         <div>
             <p>
+                <a href="/orders/{{order.order_id}}">{{order.order_id}}:</a>
                 {{ order.order_date }}: {{ order.customer_name }} ordered {{order.quantity}} book(s). 
                 Titles are:
                 {% for title in order.book_title %}
